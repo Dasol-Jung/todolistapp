@@ -6,7 +6,7 @@ const toolBar = props =>{
 
     return(
         <AppBar
-            title="Todolist for Celia"
+            title="To Do List"
             iconElementLeft={<span></span>}
             titleStyle={{textAlign:"center"}}            >
             <Logo/>

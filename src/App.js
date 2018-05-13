@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
-import Layout from './Components/Layout/Layout'
+import Layout from './Components/Layout/Layout';
+import ListBuilder from './Containers/ListBuilder/ListBuilder'
 
 class App extends Component {
 
@@ -10,7 +11,9 @@ class App extends Component {
 
     return(
       <MuiThemeProvider>
-        <Layout/>
+        <Layout>
+          <ListBuilder/>
+        </Layout>
       </MuiThemeProvider>
     )
   }
